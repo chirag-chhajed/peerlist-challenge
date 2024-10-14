@@ -34,7 +34,7 @@ const Page = () => {
         mass: 1,
       }}
     >
-      <div
+      <main
         className={cn(
           `${inst.variable} min-h-screen flex justify-center items-start `
         )}
@@ -448,7 +448,7 @@ const Page = () => {
             </p>
           </div>
         </div>
-      </div>
+      </main>
     </MotionConfig>
   );
 };

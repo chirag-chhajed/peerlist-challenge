@@ -16,7 +16,7 @@ export default function Page() {
         ease: "easeInOut",
       }}
     >
-      <div className="flex h-screen flex-col items-center justify-center gap-4 bg-[#24292E]">
+      <main className="flex h-screen flex-col items-center justify-center gap-4 bg-[#24292E]">
         <div
           style={{
             boxShadow: "0px 4px 16px 0px rgba(33, 33, 33, 0.15)",
@@ -50,7 +50,7 @@ export default function Page() {
             </Switch.Root>
           </div>
         </div>
-      </div>
+      </main>
     </MotionConfig>
   );
 }

@@ -1,6 +1,7 @@
 "use client";
 
-import React, { useState } from "react";
+import type React from "react";
+import { useState } from "react";
 import * as Emojis from "./emojis";
 import Image, { type StaticImageData } from "next/image";
 import { motion } from "framer-motion";
@@ -80,7 +81,7 @@ const PieChart = () => {
         };
 
   return (
-    <div
+    <main
       style={
         {
           "--button-background": colors.background,
@@ -88,7 +89,7 @@ const PieChart = () => {
           "--slice-hover": colors.hover,
         } as React.CSSProperties
       }
-      className="grid h-screen place-content-center"
+      className="grid h-screen place-content-center relative"
     >
       <motion.div
         style={{
@@ -191,7 +192,9 @@ const PieChart = () => {
           type="button"
           className={cn(
             "grid flex-1 place-content-center bg-white group",
-            currentCategory === "stickers" ? "bg-[#2F80ED]" : "bg-[#F3F9FC]"
+            currentCategory === "stickers"
+              ? "bg-[#2F80ED]"
+              : "hover:bg-[#F3F9FC]"
           )}
           onClick={() => setCurrentCateogry("stickers")}
         >
@@ -208,7 +211,7 @@ const PieChart = () => {
           <Star currentCategory={currentCategory} />
         </button>
       </motion.div>
-    </div>
+    </main>
   );
 };
 

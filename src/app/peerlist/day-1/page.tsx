@@ -41,7 +41,7 @@ const UpvoteButton = () => {
     <MotionConfig
       transition={{ type: "spring", stiffness: 300, mass: 1, damping: 20 }}
     >
-      <div className={`grid h-screen place-content-center ${jet.variable}`}>
+      <main className={`grid h-screen place-content-center ${jet.variable}`}>
         <motion.div
           ref={hoverRef}
           onClick={() => {
@@ -138,7 +138,7 @@ const UpvoteButton = () => {
             <Counter value={count} />
           </span>
         </motion.div>
-      </div>
+      </main>
     </MotionConfig>
   );
 };

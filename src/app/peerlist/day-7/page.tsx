@@ -11,7 +11,7 @@ import {
   useMotionValue,
   useTransform,
   animate,
-  MotionValue,
+  type MotionValue,
   AnimatePresence,
 } from "framer-motion";
 import { useState } from "react";
@@ -53,7 +53,7 @@ const CardStack = () => {
     }
   };
   return (
-    <div
+    <main
       style={{
         fontFamily: "var(--font-inter)",
       }}
@@ -139,7 +139,7 @@ const CardStack = () => {
           </div>
         )}
       </div>
-    </div>
+    </main>
   );
 };
 

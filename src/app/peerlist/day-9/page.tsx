@@ -10,7 +10,8 @@ import {
   useAnimation,
   type MotionProps,
 } from "framer-motion";
-import React, { useRef, useState } from "react";
+import type React from "react";
+import { useRef, useState } from "react";
 import { haha, heart, pray, sad, thumbs, wow } from "./emojis";
 
 const inter = Inter({

@@ -12,7 +12,7 @@ const inter = Inter({
 
 const Page = () => {
   return (
-    <div
+    <main
       style={{
         background:
           "radial-gradient(50% 50% at 50% 50%, rgba(246, 248, 250, 0.10) 0%, rgba(36, 41, 46, 0.10) 100%), linear-gradient(180deg, #839597 0%, #0A232A 100%)",
@@ -28,7 +28,7 @@ const Page = () => {
         artistName="don toliver"
         uniqueKey="dbnow"
       />
-    </div>
+    </main>
   );
 };
 

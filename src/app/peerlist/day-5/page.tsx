@@ -64,7 +64,7 @@ const Page = () => {
         damping: 20,
       }}
     >
-      <div
+      <main
         className={`flex min-h-screen items-center justify-center  ${inter.variable} `}
         style={{
           fontFamily: "var(--font-inter)",
@@ -110,7 +110,7 @@ const Page = () => {
             ))}
           </motion.div>
         </div>
-      </div>
+      </main>
     </MotionConfig>
   );
 };

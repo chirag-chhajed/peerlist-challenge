@@ -101,7 +101,7 @@ const nationalities = [
 
 export default function Page() {
   return (
-    <div
+    <main
       className={`grid min-h-screen  place-content-center bg-[#24292E] ${inst.variable} ${inter.variable}`}
     >
       <div className="mx-auto space-y-6 bg-gray-100 px-24 py-28 lg:w-1/2">
@@ -119,6 +119,6 @@ export default function Page() {
           ))}
         </div>
       </div>
-    </div>
+    </main>
   );
 }
