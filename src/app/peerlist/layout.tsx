@@ -11,7 +11,7 @@ export default function PeerlistLayout({
         {Array.from({ length: 10 }).map((_, index) => (
           <Link
             key={`links-${index}`}
-            className="flex items-center gap-3 rounded-lg px-3 py-2 text-background transition-all "
+            className="flex items-center gap-3 rounded-lg px-3 py-2 text-background font-semibold transition-all "
             href={`/peerlist/day-${index + 1}`}
           >
             Day {index + 1}
