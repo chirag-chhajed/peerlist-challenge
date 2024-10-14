@@ -141,7 +141,12 @@ const Player = ({
                 borderRadius: "8px",
               }}
             >
-              <Image src={album} className="size-20" alt="album cover" />
+              <Image
+                src={album}
+                className="size-20"
+                alt="album cover"
+                priority
+              />
             </motion.div>
             <motion.div className="space-y-px">
               <h2 className="text-lg font-semibold capitalize slashed-zero text-black">
