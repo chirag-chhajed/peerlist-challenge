@@ -1,16 +1,18 @@
 "use client";
 
-import { cn } from "@/lib/utils";
 import React, { useMemo, useState } from "react";
-import { Analytics, CurrencyCircleDollar, GitCommit } from "./icons";
+import { Inter } from "next/font/google";
+import { useMeasure } from "@uidotdev/usehooks";
 import {
   AnimatePresence,
   motion,
   MotionConfig,
   type Variants,
 } from "framer-motion";
-import { Inter } from "next/font/google";
-import { useMeasure } from "@uidotdev/usehooks";
+
+import { cn } from "@/lib/utils";
+
+import { Analytics, CurrencyCircleDollar, GitCommit } from "./icons";
 
 const inter = Inter({
   variable: "--font-inter",

@@ -1,23 +1,24 @@
 "use client";
 
 import {
-  BellIcon,
-  CircleUserIcon,
-  type LucideProps,
-  Mail,
-  PlusIcon,
-  SearchIcon,
-} from "lucide-react";
-import Link from "next/link";
-import { Inter } from "next/font/google";
-import {
+  useState,
   type Dispatch,
   type ForwardRefExoticComponent,
   type RefAttributes,
   type SetStateAction,
-  useState,
 } from "react";
+import { Inter } from "next/font/google";
+import Link from "next/link";
 import { motion, type Variants } from "framer-motion";
+import {
+  BellIcon,
+  CircleUserIcon,
+  Mail,
+  PlusIcon,
+  SearchIcon,
+  type LucideProps,
+} from "lucide-react";
+
 import { cn } from "@/lib/utils";
 
 const interFont = Inter({

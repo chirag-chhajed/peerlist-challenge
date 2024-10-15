@@ -1,11 +1,13 @@
 "use client";
 
-import { motion } from "framer-motion";
-import { Instrument_Serif, Inter } from "next/font/google";
-import check from "./icon.svg";
-import Image from "next/image";
 import { useState } from "react";
+import { Instrument_Serif, Inter } from "next/font/google";
+import Image from "next/image";
+import { motion } from "framer-motion";
+
 import { cn } from "@/lib/utils";
+
+import check from "./icon.svg";
 
 const inst = Instrument_Serif({
   variable: "--font-instrument-serif",

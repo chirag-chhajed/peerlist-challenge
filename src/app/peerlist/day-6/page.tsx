@@ -1,14 +1,16 @@
 "use client";
 
-import { cn } from "@/lib/utils";
+import { useState } from "react";
 import { Instrument_Serif, Inter } from "next/font/google";
-import logo from "./icon.svg";
-import google from "./google.svg";
-import apple from "./apple.svg";
 import Image from "next/image";
 import * as Dialog from "@radix-ui/react-dialog";
-import { useState } from "react";
 import { AnimatePresence, motion, MotionConfig } from "framer-motion";
+
+import { cn } from "@/lib/utils";
+
+import apple from "./apple.svg";
+import google from "./google.svg";
+import logo from "./icon.svg";
 
 const inst = Instrument_Serif({
   variable: "--font-instrument-serif",

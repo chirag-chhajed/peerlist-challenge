@@ -1,10 +1,12 @@
-import { AnimatePresence, motion, MotionConfig } from "framer-motion";
+import { useCallback, useEffect, useState } from "react";
 import Image, { type StaticImageData } from "next/image";
 import { useHover } from "@uidotdev/usehooks";
-import { useCallback, useEffect, useState } from "react";
-import { PauseIcon, PlayIcon } from "./icons";
-import { Slider } from "@/components/ui/slider";
+import { AnimatePresence, motion, MotionConfig } from "framer-motion";
 import useSound from "use-sound";
+
+import { Slider } from "@/components/ui/slider";
+
+import { PauseIcon, PlayIcon } from "./icons";
 
 const Player = ({
   album,

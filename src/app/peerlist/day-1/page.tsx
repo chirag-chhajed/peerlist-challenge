@@ -1,16 +1,16 @@
 "use client";
 
+import { useEffect, useMemo, useState } from "react";
+import { JetBrains_Mono } from "next/font/google";
 import { useHover } from "@uidotdev/usehooks";
 import {
   AnimatePresence,
   motion,
   MotionConfig,
-  useTransform,
   useSpring,
+  useTransform,
   type MotionValue,
 } from "framer-motion";
-import { JetBrains_Mono } from "next/font/google";
-import { useEffect, useMemo, useState } from "react";
 
 const jet = JetBrains_Mono({
   variable: "--font-jetbrains-mono",

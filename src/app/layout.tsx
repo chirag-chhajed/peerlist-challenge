@@ -1,5 +1,7 @@
 import type { Metadata } from "next";
+
 import "./globals.css";
+
 import dynamic from "next/dynamic";
 import { PHProvider } from "@/provider/providers";
 

@@ -2,11 +2,13 @@
 
 import type React from "react";
 import { useState } from "react";
-import * as Emojis from "./emojis";
 import Image, { type StaticImageData } from "next/image";
 import { motion } from "framer-motion";
-import * as Stickers from "./stickers";
+
 import { cn } from "@/lib/utils";
+
+import * as Emojis from "./emojis";
+import * as Stickers from "./stickers";
 
 const Slice = ({
   rotation,

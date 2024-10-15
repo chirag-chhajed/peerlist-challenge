@@ -1,17 +1,18 @@
+import { useEffect } from "react";
 import { motion, useAnimation } from "framer-motion";
+
 import {
   Arrow,
-  ChevronDown,
-  Ruler,
-  PencilSimple,
   ChatTearDrop,
+  ChevronDown,
   Frame,
-  Slash,
+  PencilSimple,
   PenNib,
-  TextT,
+  Ruler,
+  Slash,
   Sparkle,
+  TextT,
 } from "./icons";
-import { useEffect } from "react";
 
 export const Dev = () => {
   const controls = useAnimation();

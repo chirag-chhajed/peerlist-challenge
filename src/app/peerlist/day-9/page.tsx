@@ -1,18 +1,19 @@
 "use client";
 
+import type React from "react";
+import { useRef, useState } from "react";
 import { Inter } from "next/font/google";
-import waBackgroundImage from "./wabg.png";
 import Image, { type StaticImageData } from "next/image";
-import { useLongPress, useClickAway } from "@uidotdev/usehooks";
+import { useClickAway, useLongPress } from "@uidotdev/usehooks";
 import {
   AnimatePresence,
   motion,
   useAnimation,
   type MotionProps,
 } from "framer-motion";
-import type React from "react";
-import { useRef, useState } from "react";
+
 import { haha, heart, pray, sad, thumbs, wow } from "./emojis";
+import waBackgroundImage from "./wabg.png";
 
 const inter = Inter({
   variable: "--font-inter",

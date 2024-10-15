@@ -1,10 +1,11 @@
 "use client";
 
 import { useState } from "react";
-import { Code } from "./icons";
 import * as Switch from "@radix-ui/react-switch";
 import { AnimatePresence, MotionConfig } from "framer-motion";
+
 import { Design, Dev } from "./components";
+import { Code } from "./icons";
 
 export default function Page() {
   const [checked, setChecked] = useState(true);

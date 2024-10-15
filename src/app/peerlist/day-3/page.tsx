@@ -1,8 +1,9 @@
 "use client";
 
-import album from "./icon.png";
-import { Player } from "./components";
 import { Inter } from "next/font/google";
+
+import { Player } from "./components";
+import album from "./icon.png";
 
 const inter = Inter({
   variable: "--font-inter",

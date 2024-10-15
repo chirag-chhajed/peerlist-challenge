@@ -1,20 +1,21 @@
 "use client";
 
+import { useState } from "react";
 import { Inter } from "next/font/google";
 import Image, { type StaticImageData } from "next/image";
+import {
+  animate,
+  AnimatePresence,
+  motion,
+  useMotionValue,
+  useTransform,
+  type MotionValue,
+} from "framer-motion";
+
 import card1 from "./card1.png";
 import card2 from "./card2.png";
 import card3 from "./card3.png";
 import financeIcon from "./icon.svg";
-import {
-  motion,
-  useMotionValue,
-  useTransform,
-  animate,
-  type MotionValue,
-  AnimatePresence,
-} from "framer-motion";
-import { useState } from "react";
 
 const inter = Inter({
   variable: "--font-inter",
