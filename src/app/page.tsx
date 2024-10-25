@@ -3,8 +3,8 @@ import Link from "next/link";
 
 const Page = () => {
   return (
-    <main className="h-screen grid place-content-center">
-      <div className="flex flex-col gap-4 items-center">
+    <main className="grid h-screen place-content-center">
+      <div className="flex flex-col items-center gap-4">
         <Image
           priority
           src={"/cover.png"}

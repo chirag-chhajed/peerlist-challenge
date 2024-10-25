@@ -58,7 +58,7 @@ const CardStack = () => {
       style={{
         fontFamily: "var(--font-inter)",
       }}
-      className={`grid flex-1 min-h-screen place-content-center ${inter.variable} space-y-4 bg-[#e3e8ea]`}
+      className={`grid min-h-screen flex-1 place-content-center ${inter.variable} space-y-4 bg-[#e3e8ea]`}
     >
       <div className="flex h-screen w-[430px] items-center justify-center overflow-hidden bg-[#24292E] px-4">
         {open ? (

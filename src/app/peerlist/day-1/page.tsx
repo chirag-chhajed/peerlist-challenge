@@ -42,7 +42,7 @@ const UpvoteButton = () => {
       transition={{ type: "spring", stiffness: 300, mass: 1, damping: 20 }}
     >
       <main
-        className={`grid flex-1 h-screen place-content-center ${jet.variable}`}
+        className={`grid h-screen flex-1 place-content-center ${jet.variable}`}
       >
         <motion.div
           ref={hoverRef}

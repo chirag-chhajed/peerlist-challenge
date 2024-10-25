@@ -20,7 +20,7 @@ const Page = () => {
         backgroundBlendMode: "overlay, normal",
         fontFamily: "var(--font-inter)",
       }}
-      className={`flex flex-1 h-screen items-center justify-center ${inter.variable} overflow-hidden`}
+      className={`flex h-screen flex-1 items-center justify-center ${inter.variable} overflow-hidden`}
     >
       <Player
         album={album}

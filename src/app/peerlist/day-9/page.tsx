@@ -98,7 +98,7 @@ const Page = () => {
 
   return (
     <main
-      className={`flex flex-1 min-h-screen items-center justify-center ${inter.variable}`}
+      className={`flex min-h-screen flex-1 items-center justify-center ${inter.variable}`}
     >
       <div className="relative h-[760px] w-[375px] space-y-2">
         <Image

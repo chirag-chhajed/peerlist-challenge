@@ -56,7 +56,7 @@ export default function PeerlistLayout({
               <span className="">
                 Made by{" "}
                 <a
-                  className="underline font-semibold"
+                  className="font-semibold underline"
                   href="https://x.com/ChiragChhajed18/"
                 >
                   Chirag

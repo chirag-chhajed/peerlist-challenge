@@ -22,7 +22,7 @@ const Slice = ({
   return (
     <button
       type="button"
-      className="slice absolute right-0 top-0 flex size-1/2  items-end justify-center border-x-[0.5px] border-[#E1E4E8]  transition-colors hover:bg-[var(--slice-hover)] group"
+      className="slice group absolute right-0 top-0 flex  size-1/2 items-end justify-center border-x-[0.5px]  border-[#E1E4E8] transition-colors hover:bg-[var(--slice-hover)]"
       style={
         {
           "--rotation": `${rotation}deg`,
@@ -92,7 +92,7 @@ const PieChart = () => {
           "--slice-hover": colors.hover,
         } as React.CSSProperties
       }
-      className="grid h-screen place-content-center relative flex-1"
+      className="relative grid h-screen flex-1 place-content-center"
     >
       <motion.div
         style={{
