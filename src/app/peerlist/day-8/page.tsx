@@ -65,7 +65,7 @@ const MobileNavbar = () => {
       style={{
         fontFamily: "var(--font-inter)",
       }}
-      className={`grid min-h-screen place-content-center bg-gray-400 ${interFont.variable}`}
+      className={`grid flex-1 min-h-screen place-content-center bg-gray-400 ${interFont.variable}`}
     >
       <div>
         <div

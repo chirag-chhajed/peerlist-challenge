@@ -92,7 +92,7 @@ const PieChart = () => {
           "--slice-hover": colors.hover,
         } as React.CSSProperties
       }
-      className="grid h-screen place-content-center relative"
+      className="grid h-screen place-content-center relative flex-1"
     >
       <motion.div
         style={{

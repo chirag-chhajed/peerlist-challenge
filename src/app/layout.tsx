@@ -2,8 +2,7 @@ import type { Metadata } from "next";
 
 import "./globals.css";
 
-import dynamic from "next/dynamic";
-import { PHProvider } from "@/provider/providers";
+import { PHProvider, PostHogPageView } from "@/provider/providers";
 
 export const metadata: Metadata = {
   title: "Peerlist IxDChallenge ",
@@ -23,9 +22,6 @@ export const metadata: Metadata = {
   },
 };
 
-const PostHogPageView = dynamic(() => import("../provider/PostHogPageView"), {
-  ssr: false,
-});
 export default function RootLayout({
   children,
 }: Readonly<{

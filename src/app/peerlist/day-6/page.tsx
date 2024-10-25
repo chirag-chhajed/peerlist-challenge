@@ -38,7 +38,7 @@ const Page = () => {
     >
       <main
         className={cn(
-          `${inst.variable} min-h-screen flex justify-center items-start `
+          `${inst.variable} min-h-screen flex-1 flex justify-center items-start `
         )}
       >
         <div

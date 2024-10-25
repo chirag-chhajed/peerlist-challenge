@@ -67,7 +67,7 @@ const Page = () => {
       }}
     >
       <main
-        className={`flex min-h-screen items-center justify-center  ${inter.variable} `}
+        className={`flex flex-1 min-h-screen items-center justify-center  ${inter.variable} `}
         style={{
           fontFamily: "var(--font-inter)",
         }}
