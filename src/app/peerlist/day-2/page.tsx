@@ -40,7 +40,7 @@ function Pill({ name }: Readonly<{ name: string }>) {
       layout
       variants={variants}
       className={cn(
-        `py-2 flex-1 px-3 rounded-[40px] border border-orange-500 flex items-center ${inter.variable} gap-1 text-gray-700`
+        `py-2 px-3 rounded-[40px] border border-orange-500 flex items-center ${inter.variable} gap-1 text-gray-700`
       )}
       style={{
         fontFamily: "var(--font-inter)",
@@ -104,7 +104,7 @@ const nationalities = [
 export default function Page() {
   return (
     <main
-      className={`grid min-h-screen  place-content-center bg-[#24292E] ${inst.variable} ${inter.variable}`}
+      className={`grid min-h-screen flex-1  place-content-center bg-[#24292E] ${inst.variable} ${inter.variable}`}
     >
       <div className="mx-auto space-y-6 bg-gray-100 px-24 py-28 lg:w-1/2">
         <h1
