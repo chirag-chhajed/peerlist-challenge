@@ -35,6 +35,7 @@ const Slice = ({
         className={cn("emoji size-8", className)}
         alt="Emoji"
         draggable={false}
+        priority
       />
 
       <div className="triangle invisible group-hover:visible " />
@@ -206,7 +207,7 @@ const PieChart = () => {
           type="button"
           className={cn(
             "grid flex-1 place-content-center group",
-            currentCategory === "emojis" ? "bg-[#7f2bff]" : "bg-white"
+            currentCategory === "emojis" ? "bg-[#7f2bff]" : "hover:bg-bankai"
           )}
           onClick={() => setCurrentCateogry("emojis")}
         >
